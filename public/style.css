@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.body-red{
+    background-color: red;
+}
+.body-blue{
+    background-color: blue;
+}
+.body-yellow{
+    background-color:yellow;
+}
+.body-green{
+    background-color:green;
+}
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:1rem;
+    background-color:lightblue;
+}
+form div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:1rem;
+}
+form div label {
+    margin-bottom:5px;
+}
+.text-danger{
+    color:tomato;
+}
